@@ -1,0 +1,75 @@
+git remote add origin https://wwww.github.com/michael-tq/DSA-Recursion.git
+
+1. Counting Sheep
+Program Input: A number.
+Program Output: Either "Another sheep jumps over the fence" or "All sheep jumped over the fence"
+Recursive Input: Number - 1
+Recursive Output: Either "Another sheep jumps over the fence" or "All sheep jumped over the fence"
+
+2.Power Calculator
+Program Input: base, exponent
+Program Output: current value or "exponent should be >= 0"
+Recursive Input: current value * (func(base and exponent - 1))
+Recursive Output: currect value
+
+3. Reverse String
+Program Input: string
+Program Output: reversed string
+Recursive Input: the string, without last character
+Recursive Output: original string without last character
+
+4. nth Triangular Number
+using n(n+1)/2   
+Program Input: number
+Program Output: triangle
+Recursive Input: (initial number = n(n+1)/2) - 1 to get the length of first row, every function call after is 
+that number minus 1
+Recursive Output: each row of triangle
+
+5. String Splitter
+Program Input: string, separator
+Program Output: ['element', 'element']
+Recursive Input: string with last element removed
+Recursive Output: character 
+
+6. Fibonacci
+Program Input: a number
+Program Output: a number
+Recursive Input: fib(n-1) + fib(n-2)
+Recursive Output: same as input until n <= 0
+
+7. Factorial
+Program Input: number
+Program Output: number
+Recursive Input: num * func(num - 1)
+Recursive Output: numbers until num=1
+
+8. Find a way out of the maze
+Program Input: maze
+Program Output: directions 'RDRLRLR'
+Recursive Input: maze and current position 
+Recursive Output: maze and new position
+
+9. Find ALL the ways out of the maze
+Program Input: maze
+Program Output: direction
+Recursive Input: maze and current position
+Recursive Output: maze and current position
+
+10. Anagrams
+Program Input: string
+Program Output: all string permutations
+Recursive Input: remaining characters not looped
+Recursive Output: sliced string current index
+
+11. Organization Chart
+Program Input: list of names
+Program Output: listed names in their folders
+Recursive Input: folders
+Recursive Output: names in folders
+
+12. Binary Representation
+Program Input: number
+Program Output: binary representation of number
+Recursive Input: number of decimal / 2 
+Recursive Output: decimal % 2 + 10 * (func(dec / 2))
